@@ -100,7 +100,7 @@ export default function Navbar() {
               ))}
               <li>
                 <a
-                  href="/Sudeep_Resume.pdf"
+                  href="/Sudeep_Resume_2026.pdf"
                   download
                   className="inline-block text-sm font-display font-semibold px-4 py-2 rounded-lg border border-teal/50 text-teal hover:bg-teal/10 transition-all"
                 >
