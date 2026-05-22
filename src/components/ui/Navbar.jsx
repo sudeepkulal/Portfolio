@@ -1,31 +1,33 @@
-import { useState, useEffect } from 'react'
-import { Link } from 'react-scroll'
-import { Menu, X } from 'lucide-react'
-import { motion, AnimatePresence } from 'framer-motion'
+import { useState, useEffect } from "react";
+import { Link } from "react-scroll";
+import { Menu, X } from "lucide-react";
+import { motion, AnimatePresence } from "framer-motion";
 
 const navLinks = [
-  { label: 'About',      to: 'about' },
-  { label: 'Skills',     to: 'skills' },
-  { label: 'Experience', to: 'internship' },
-  { label: 'Projects',   to: 'projects' },
-  { label: 'Education',  to: 'education' },
-  { label: 'Contact',    to: 'contact' },
-]
+  { label: "About", to: "about" },
+  { label: "Skills", to: "skills" },
+  { label: "Experience", to: "internship" },
+  { label: "Projects", to: "projects" },
+  { label: "Education", to: "education" },
+  { label: "Contact", to: "contact" },
+];
 
 export default function Navbar() {
-  const [scrolled, setScrolled] = useState(false)
-  const [open, setOpen]         = useState(false)
+  const [scrolled, setScrolled] = useState(false);
+  const [open, setOpen] = useState(false);
 
   useEffect(() => {
-    const onScroll = () => setScrolled(window.scrollY > 40)
-    window.addEventListener('scroll', onScroll)
-    return () => window.removeEventListener('scroll', onScroll)
-  }, [])
+    const onScroll = () => setScrolled(window.scrollY > 40);
+    window.addEventListener("scroll", onScroll);
+    return () => window.removeEventListener("scroll", onScroll);
+  }, []);
 
   return (
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        scrolled ? 'bg-bg/90 backdrop-blur-md border-b border-border' : 'bg-transparent'
+        scrolled
+          ? "bg-bg/90 backdrop-blur-md border-b border-border"
+          : "bg-transparent"
       }`}
     >
       <nav className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
@@ -56,7 +58,7 @@ export default function Navbar() {
 
         {/* Resume button — desktop */}
         <a
-          href="/Sudeep_Resume.pdf"
+          href="/Sudeep_Resume_2026.pdf"
           download
           className="hidden md:inline-flex items-center gap-2 text-sm font-display font-semibold px-4 py-2 rounded-lg border border-teal/50 text-teal hover:bg-teal/10 transition-all duration-200"
         >
@@ -78,7 +80,7 @@ export default function Navbar() {
         {open && (
           <motion.div
             initial={{ opacity: 0, height: 0 }}
-            animate={{ opacity: 1, height: 'auto' }}
+            animate={{ opacity: 1, height: "auto" }}
             exit={{ opacity: 0, height: 0 }}
             transition={{ duration: 0.25 }}
             className="md:hidden bg-surface border-b border-border overflow-hidden"
@@ -112,5 +114,5 @@ export default function Navbar() {
         )}
       </AnimatePresence>
     </header>
-  )
+  );
 }
