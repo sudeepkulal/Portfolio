@@ -4,7 +4,7 @@ import { MapPin, GraduationCap, Briefcase } from 'lucide-react'
 
 const facts = [
   { icon: MapPin,         text: 'Udupi, Karnataka' },
-  { icon: GraduationCap, text: 'B.E. AI & ML — SMVITM (CGPA 8.35)' },
+  { icon: GraduationCap, text: 'B.E. AI & ML — SMVITM (CGPA 8.56)' },
   { icon: Briefcase,     text: 'Android Dev Intern @ MindMatrix' },
 ]
 
@@ -76,7 +76,7 @@ export default function About() {
               <div className="grid grid-cols-3 gap-4 text-center">
                 {[
                   { num: '4+',  label: 'Projects' },
-                  { num: '8.35', label: 'CGPA' },
+                  { num: '8.56', label: 'CGPA' },
                   { num: '4',   label: 'Certifications' },
                 ].map(({ num, label }) => (
                   <div key={label}>
