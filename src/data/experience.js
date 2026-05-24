@@ -14,7 +14,7 @@ export const education = {
   branch: 'Artificial Intelligence & Machine Learning',
   college: 'Shri Madhwa Vadiraja Institute of Technology and Management',
   short: 'SMVITM, Udupi, Karnataka',
-  cgpa: '8.35 / 10',
+  cgpa: '8.56 / 10',
   year: '2022 – 2026',
 }
 
