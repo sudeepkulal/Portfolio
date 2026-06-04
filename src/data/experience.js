@@ -1,7 +1,7 @@
 export const internship = {
   company: 'MindMatrix',
   role: 'Android Developer Intern',
-  period: 'Feb 2026 – Present',
+  period: 'Feb 2026 – May 2026',
   focus: 'Android App Development with GenAI',
   points: [
     'Built KarunadaKala — a full-featured Android app (Kotlin + Jetpack Compose) to discover Karnataka\'s art forms and artisans, integrating Firebase Auth, Firestore, Google Maps SDK, and Gemini API for AI-generated descriptions, with 3-role RBAC (Explorer / Artisan / Admin).',
