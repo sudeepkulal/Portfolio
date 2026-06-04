@@ -17,17 +17,7 @@ Personal portfolio website built with React + Vite, showcasing my projects, skil
 
 ---
 
-## Sections
 
-- **Hero** — Typewriter role animation, CTAs
-- **About** — Bio, quick stats, current stack
-- **Skills** — Grouped by Frontend / Backend / Android / AI-ML / Databases / Tools
-- **Internship** — MindMatrix (Android Dev Intern, Feb 2026 – Present)
-- **Projects** — KarunadaKala, Airbnb Clone, CapsiGuard, RecipeBook
-- **Education** — SMVITM, Udupi · CGPA 8.35 · 4 Certifications
-- **Contact** — Email, Phone, GitHub, LinkedIn (mailto links, no backend)
-
----
 
 ## Running Locally
 
