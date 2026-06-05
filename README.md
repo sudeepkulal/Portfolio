@@ -17,7 +17,6 @@ Personal portfolio website built with React + Vite, showcasing my projects, skil
 
 ---
 
-## Sections
 
 - **Hero** — Typewriter role animation, CTAs
 - **About** — Bio, quick stats, current stack
