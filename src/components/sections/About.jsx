@@ -4,8 +4,8 @@ import { MapPin, GraduationCap, Briefcase } from 'lucide-react'
 
 const facts = [
   { icon: MapPin,         text: 'Udupi, Karnataka' },
-  { icon: GraduationCap, text: 'B.E. AI & ML — SMVITM (CGPA 8.35)' },
-  { icon: Briefcase,     text: 'Android Dev Intern @ MindMatrix' },
+  { icon: GraduationCap, text: 'B.E. AI & ML — SMVITM (CGPA 8.56)' },
+  { icon: Briefcase,     text: 'Former Android Dev Intern @ MindMatrix' },
 ]
 
 export default function About() {
@@ -25,12 +25,12 @@ export default function About() {
               className="space-y-4 text-muted leading-relaxed font-body"
             >
               <p>
-                I'm a final-year <span className="text-text font-medium">AI & Machine Learning</span> student
+                I'm an <span className="text-text font-medium">Artificial Intelligence & Machine Learning</span> graduate
                 with a strong grip on both web and mobile development. I love building things
                 end-to-end — from designing REST APIs to shipping polished Android UIs.
               </p>
               <p>
-                My internship at <span className="text-text font-medium">MindMatrix</span> has me
+                My internship at <span className="text-text font-medium">MindMatrix</span> had me
                 deep in Kotlin, Jetpack Compose, and GenAI — building apps that integrate
                 Gemini API, Firebase, and Google Maps into real cultural experiences.
               </p>
@@ -76,7 +76,7 @@ export default function About() {
               <div className="grid grid-cols-3 gap-4 text-center">
                 {[
                   { num: '4+',  label: 'Projects' },
-                  { num: '8.35', label: 'CGPA' },
+                  { num: '8.56', label: 'CGPA' },
                   { num: '4',   label: 'Certifications' },
                 ].map(({ num, label }) => (
                   <div key={label}>

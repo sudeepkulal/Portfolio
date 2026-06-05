@@ -114,7 +114,7 @@ export default function Hero() {
             className="font-body text-lg text-muted leading-relaxed max-w-xl mb-10"
           >
             I build production-ready web apps and Android applications with
-            clean architecture. Currently interning at{" "}
+            clean architecture. Previously interned at{" "}
             <span className="text-text font-medium">MindMatrix</span> — crafting
             GenAI-powered Android experiences.
           </motion.p>

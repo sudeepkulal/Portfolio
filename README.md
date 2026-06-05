@@ -22,9 +22,9 @@ Personal portfolio website built with React + Vite, showcasing my projects, skil
 - **Hero** — Typewriter role animation, CTAs
 - **About** — Bio, quick stats, current stack
 - **Skills** — Grouped by Frontend / Backend / Android / AI-ML / Databases / Tools
-- **Internship** — MindMatrix (Android Dev Intern, Feb 2026 – Present)
-- **Projects** — KarunadaKala, Airbnb Clone, CapsiGuard, RecipeBook
-- **Education** — SMVITM, Udupi · CGPA 8.35 · 4 Certifications
+- **Internship** — MindMatrix (Android Dev Intern, Feb 2026 – May 2026)
+- **Projects** — KarunadaKala, AuraStay, CapsiGuard, RecipeBook
+- **Education** — SMVITM, Udupi · CGPA 8.56 · 4 Certifications
 - **Contact** — Email, Phone, GitHub, LinkedIn (mailto links, no backend)
 
 ---
@@ -60,7 +60,7 @@ Output goes to the `dist/` folder.
 | Project | Stack | Description |
 |---------|-------|-------------|
 | [KarunadaKala](https://github.com/sudeepkulal) | Kotlin · Jetpack Compose · Firebase · Gemini API | Android app to discover Karnataka's art forms and artisans |
-| [Airbnb Clone](https://github.com/sudeepkulal) | React · Node.js · Express · MongoDB | Full stack property rental platform |
+| [AuraStay](https://github.com/sudeepkulal) | React · Node.js · Express · MongoDB | Full stack property rental platform |
 | [CapsiGuard](https://github.com/sudeepkulal) | Python · Django · YOLO · Roboflow | AI-powered crop disease detection |
 | [RecipeBook](https://github.com/sudeepkulal) | Django · Python · MySQL | Multi-user recipe sharing platform |
 
